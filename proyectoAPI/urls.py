@@ -1,7 +1,7 @@
 from django.urls import path
-from .views import ingreso
+from proyectoAPI import views
 
 
 urlpatterns = [
-    path('', ingreso, name="ingreso"),
+    path('', views, name="ingreso"),
 ]
